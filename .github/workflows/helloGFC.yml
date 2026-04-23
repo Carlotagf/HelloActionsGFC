@@ -1,0 +1,10 @@
+name: HelloGFC
+
+on: [push]
+
+jobs:
+  saludo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: HelloGFC
+        run: echo "Hola, mundo, desde GFC"
